@@ -1,3 +1,5 @@
+package Class;
+
 public class ConstructorClass {
     public static void main(String[] args){
 

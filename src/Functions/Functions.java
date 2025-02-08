@@ -1,3 +1,5 @@
+package Functions;
+
 import java.util.*;
 
 
@@ -22,7 +24,7 @@ public class Functions {
     }
 
 
-    //Functions are nothing but a block of code.
+    //functions.Functions are nothing but a block of code.
     static int sum(int num1, int num2){
         return num1+num2;
     }

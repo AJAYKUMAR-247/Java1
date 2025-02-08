@@ -1,7 +1,9 @@
+package Functions;
+
 import java.util.*;
 
 
-public class Main {
+public class Switch {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
