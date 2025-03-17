@@ -11,12 +11,16 @@ public class shadowing {
         obj.shadowing1 = 1000;
 
         //Here the local variable(lower level) is overriding the instance variable(upper level).
-        System.out.println("functions.shadowing :"+obj.shadowing1);
+        System.out.println("functionsShadowing :"+obj.shadowing1);
 
         int shadowing2 = 999;
         //local variable
         {
-            shadowing2 = 1000;
+            shadowing obj1 = new shadowing();
+            obj1.shadowing1 = 888;
+            System.out.println("BlockScope Shadowing: "+ obj1.shadowing1);
+
+            shadowing2 = 9000;
             //block scope
             System.out.println("functions.shadowing :"+shadowing2);// Here the upper level is overriding by the lower level.
         }

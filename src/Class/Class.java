@@ -1,17 +1,19 @@
 package Class;
 
 public class Class {
-    public static void main(String[] args){
+    // public class fnal Class --> whenever if you do a class as final, implicitily that class methods are also final too.
+    public static void main(String[] args) {
         Student student = new Student();
 
-        System.out.println("studentName: "+student.name);
-        System.out.println("studentRollno: "+student.rollno);
-        System.out.println("studentMarks: "+student.marks);
+        System.out.println("studentName: " + student.name);
+        System.out.println("studentRollno: " + student.rollno);
+        System.out.println("studentMarks: " + student.marks);
 
-        String name = student.student("Ajay");
-        System.out.println("The name is: "+ name);
+        String name = student.student("Kumar");
+        System.out.println("The name is: " + name);
     }
-    static class Student{
+
+    static class Student {
 
         //Instance Varaibles
 
@@ -22,7 +24,7 @@ public class Class {
         String name = "Ajay";
         float marks = 89.9f;
 
-        String student(String name){
+        String student(String name) {
             return name;
         }
 
