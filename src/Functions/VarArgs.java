@@ -26,5 +26,4 @@ public class VarArgs {
         }
         System.out.println("Hi "+name+" your score is :"+total);
     }
-
 }
