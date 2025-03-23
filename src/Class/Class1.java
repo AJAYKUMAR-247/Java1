@@ -19,6 +19,7 @@ public class Class1 {
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
 
+
         Calculator calc = new Calculator();
 
         int result = calc.add(num1, num2);
