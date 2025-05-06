@@ -27,7 +27,6 @@ public class ArrayofObjects {
         Student[] student = {student1, student2, student3};
 
         // To create a Array of class student
-
         Student[] studentArray = new Student[3];
 
 //        for (int i = 0; i < studentArray.length; i++) {
