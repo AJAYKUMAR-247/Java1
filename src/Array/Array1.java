@@ -23,7 +23,7 @@ public class Array1 {
         System.out.println(arr1); //This will print the memory address of the array instead of printing the elemments of the array,
         // why because java does not ovveride the toString() in arrays.
 
-        System.out.println(Arrays.toString(arr1));// Array.toString() will convert the array into human readable format.
+        System.out.println(Arrays.toString(arr1));// Array.toString() will convert the array into human-readable format.
         //Array.toString() belongs to Array class, it takes the array as an argument and returns the String representation of that array.
 
     }
